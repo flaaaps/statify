@@ -1,0 +1,16 @@
+.like-rate,
+.dislike-rate {
+    margin-left: 8px;
+}
+
+#sentiment {
+    width: 200px !important;
+}
+
+@media screen and (max-width: 900px) {
+    .like-rate,
+    .dislike-rate,
+    #sentiment {
+        display: none;
+    }
+}
